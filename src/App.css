@@ -27,3 +27,12 @@ body {
   outline: 0;
   box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0.25);
 }
+
+.progress {
+  height: 8px;
+}
+
+.form__help_danger {
+  font-size: 11px;
+  color: red;
+}
