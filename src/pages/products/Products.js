@@ -1,8 +1,8 @@
 import React from 'react';
-import './Products.css'
+import './Products.css';
 
 
-export default class Products extends React.Component {
+class Products extends React  {
 
  render() {
     return (
@@ -158,4 +158,6 @@ export default class Products extends React.Component {
 }
 }
 
+
+export default Products;
 
