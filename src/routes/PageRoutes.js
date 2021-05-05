@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from '../components/Navbar';
+import Products from '../pages/products/Products';
 
 export default class PageRoutes extends React.Component {
   render() {
@@ -10,7 +11,7 @@ export default class PageRoutes extends React.Component {
         <Router>
           <section>
             <Switch>
-              
+              <Route to="/" component={Products} exact/>
             </Switch>
           </section>
         </Router>
